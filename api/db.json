@@ -1,0 +1,764 @@
+{
+  "cars": [
+    {
+      "name": "Ford Transit Courier",
+      "company": "Sixt",
+      "car_type": "Van",
+      "manufacturer": "Ford",
+      "horsepower": 100,
+      "range": 500,
+      "gas_mileage": null,
+      "transmission": "Manual",
+      "fuel_type": "Diesel",
+      "engine_capacity": 1499
+    },
+    {
+      "name": "Vw Taigo Petrol (Style)",
+      "company": "FlexCar",
+      "car_type": "SUV",
+      "manufacturer": "Volkswagen",
+      "horsepower": 110,
+      "range": 678,
+      "gas_mileage": 5.9,
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "engine_capacity": 1000
+    },
+    {
+      "name": "Fiat Fiorino Diesel (Final Tecnico Pack L1H1)",
+      "company": "FlexCar",
+      "car_type": "Professional",
+      "manufacturer": "Fiat",
+      "horsepower": 95,
+      "range": 921,
+      "gas_mileage": 4.9,
+      "transmission": "Manual",
+      "fuel_type": "Diesel",
+      "engine_capacity": 1300
+    },
+    {
+      "name": "Opel Astra Plug In Hybrid Petrol (Gs Line)",
+      "company": "FlexCar",
+      "car_type": "Hatchback",
+      "manufacturer": "Opel",
+      "horsepower": 180,
+      "range": 3531,
+      "gas_mileage": 1.2,
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "engine_capacity": 1600
+    },
+    {
+      "name": "Citroen Ami",
+      "company": "Instacar",
+      "car_type": "Hatchback",
+      "manufacturer": "Citroen",
+      "horsepower": 10,
+      "range": 450,
+      "gas_mileage": null,
+      "transmission": "Automatic",
+      "fuel_type": "Electric",
+      "engine_capacity": null
+    },
+    {
+      "name": "Kia Stonic Gl Optimum",
+      "company": "Instacar",
+      "car_type": "SUV",
+      "manufacturer": "Kia",
+      "horsepower": 84,
+      "range": 357,
+      "gas_mileage": 5.5,
+      "transmission": "Manual",
+      "fuel_type": "Gasoline",
+      "engine_capacity": 1248
+    },
+    {
+      "name": "Kia Picanto",
+      "company": "Hertz",
+      "car_type": "Hatchback",
+      "manufacturer": "Kia",
+      "horsepower": 84,
+      "range": 638,
+      "gas_mileage": 4.8,
+      "transmission": "Manual",
+      "fuel_type": "Gasoline",
+      "engine_capacity": 1200
+    },
+    {
+      "name": "Toyota Rav4",
+      "company": "Avis",
+      "car_type": "SUV",
+      "manufacturer": "Toyota",
+      "horsepower": 306,
+      "range": 789,
+      "gas_mileage": null,
+      "transmission": "Automatic",
+      "fuel_type": "Hybrid",
+      "engine_capacity": 2487
+    },
+    {
+      "name": "Audi Q2 Diesel (Basic 30)",
+      "company": "FlexCar",
+      "car_type": "SUV",
+      "manufacturer": "Audi",
+      "horsepower": 116,
+      "range": 1041,
+      "gas_mileage": 4.7,
+      "transmission": "Automatic",
+      "fuel_type": "Diesel",
+      "engine_capacity": 2000
+    }
+  ],
+  "stats": [
+    {
+      "price": 466,
+      "time": "2025-01-06 02:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 545,
+      "time": "2025-01-06 02:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 549,
+      "time": "2025-01-06 02:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 572,
+      "time": "2025-01-06 02:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 705,
+      "time": "2025-01-10 02:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 444,
+      "time": "2025-01-13 02:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 549,
+      "time": "2025-01-13 02:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 549,
+      "time": "2025-01-13 02:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 311,
+      "time": "2025-01-13 02:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 705,
+      "time": "2025-01-13 02:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 457,
+      "time": "2025-01-20 02:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 578,
+      "time": "2025-01-20 02:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 549,
+      "time": "2025-01-20 02:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 312,
+      "time": "2025-01-20 02:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 797,
+      "time": "2025-01-20 02:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 476,
+      "time": "2025-01-27 02:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 576,
+      "time": "2025-01-27 02:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 549,
+      "time": "2025-01-27 02:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 313,
+      "time": "2025-01-27 02:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 793,
+      "time": "2025-01-27 02:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 470,
+      "time": "2025-02-03 02:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 572,
+      "time": "2025-02-03 02:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 549,
+      "time": "2025-02-03 02:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 627,
+      "time": "2025-02-03 02:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 811,
+      "time": "2025-02-03 02:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 472,
+      "time": "2025-02-10 02:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 561,
+      "time": "2025-02-10 02:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 549,
+      "time": "2025-02-10 02:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 636,
+      "time": "2025-02-10 02:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 801,
+      "time": "2025-02-10 02:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 483,
+      "time": "2025-02-17 02:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 559,
+      "time": "2025-02-17 02:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 549,
+      "time": "2025-02-17 02:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 645,
+      "time": "2025-02-17 02:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 801,
+      "time": "2025-02-17 02:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 485,
+      "time": "2025-02-24 02:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 552,
+      "time": "2025-02-24 02:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 544,
+      "time": "2025-02-24 02:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 649,
+      "time": "2025-02-24 02:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 801,
+      "time": "2025-02-24 02:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 475,
+      "time": "2025-03-03 02:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 570,
+      "time": "2025-03-03 02:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 544,
+      "time": "2025-03-03 02:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 648,
+      "time": "2025-03-03 02:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 958,
+      "time": "2025-03-03 02:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 467,
+      "time": "2025-03-10 02:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 565,
+      "time": "2025-03-10 02:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 544,
+      "time": "2025-03-10 02:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 659,
+      "time": "2025-03-10 02:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 945,
+      "time": "2025-03-10 02:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 450,
+      "time": "2025-03-17 02:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 564,
+      "time": "2025-03-17 02:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 562,
+      "time": "2025-03-17 02:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 312,
+      "time": "2025-03-17 02:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 970,
+      "time": "2025-03-17 02:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 425,
+      "time": "2025-03-24 02:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 581,
+      "time": "2025-03-24 02:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 562,
+      "time": "2025-03-24 02:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 313,
+      "time": "2025-03-24 02:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 970,
+      "time": "2025-03-24 02:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 413,
+      "time": "2025-03-31 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 581,
+      "time": "2025-03-31 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 562,
+      "time": "2025-03-31 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 313,
+      "time": "2025-03-31 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 970,
+      "time": "2025-03-31 03:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 408,
+      "time": "2025-04-07 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 580,
+      "time": "2025-04-07 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 562,
+      "time": "2025-04-07 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 313,
+      "time": "2025-04-07 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 970,
+      "time": "2025-04-07 03:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 406,
+      "time": "2025-04-14 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 573,
+      "time": "2025-04-14 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 562,
+      "time": "2025-04-14 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 312,
+      "time": "2025-04-14 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 970,
+      "time": "2025-04-14 03:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 406,
+      "time": "2025-04-21 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 572,
+      "time": "2025-04-21 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 562,
+      "time": "2025-04-21 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 630,
+      "time": "2025-04-21 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 970,
+      "time": "2025-04-21 03:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 418,
+      "time": "2025-04-28 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 574,
+      "time": "2025-04-28 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 562,
+      "time": "2025-04-28 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 633,
+      "time": "2025-04-28 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 970,
+      "time": "2025-04-28 03:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 422,
+      "time": "2025-05-05 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 575,
+      "time": "2025-05-05 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 562,
+      "time": "2025-05-05 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 612,
+      "time": "2025-05-05 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 970,
+      "time": "2025-05-05 03:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 417,
+      "time": "2025-05-12 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 576,
+      "time": "2025-05-12 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 562,
+      "time": "2025-05-12 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 612,
+      "time": "2025-05-12 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 1098,
+      "time": "2025-05-12 03:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 404,
+      "time": "2025-05-19 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 584,
+      "time": "2025-05-19 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 609,
+      "time": "2025-05-19 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 617,
+      "time": "2025-05-19 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 1098,
+      "time": "2025-05-19 03:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 399,
+      "time": "2025-05-23 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 436,
+      "time": "2025-05-23 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 609,
+      "time": "2025-05-23 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 615,
+      "time": "2025-05-23 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 1098,
+      "time": "2025-05-23 03:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 400,
+      "time": "2025-05-26 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 513,
+      "time": "2025-05-26 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 609,
+      "time": "2025-05-26 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 615,
+      "time": "2025-05-26 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 1098,
+      "time": "2025-05-26 03:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 411,
+      "time": "2025-06-02 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 476,
+      "time": "2025-06-02 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 669,
+      "time": "2025-06-02 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 610,
+      "time": "2025-06-02 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 1136,
+      "time": "2025-06-02 03:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 411,
+      "time": "2025-06-09 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 535,
+      "time": "2025-06-09 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 669,
+      "time": "2025-06-09 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 613,
+      "time": "2025-06-09 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 1136,
+      "time": "2025-06-09 03:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 406,
+      "time": "2025-06-16 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 386,
+      "time": "2025-06-16 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 669,
+      "time": "2025-06-16 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 613,
+      "time": "2025-06-16 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 1136,
+      "time": "2025-06-16 03:00:00",
+      "company": "Sixt"
+    },
+    {
+      "price": 402,
+      "time": "2025-06-23 03:00:00",
+      "company": "Avis"
+    },
+    {
+      "price": 442,
+      "time": "2025-06-23 03:00:00",
+      "company": "FlexCar"
+    },
+    {
+      "price": 669,
+      "time": "2025-06-23 03:00:00",
+      "company": "Hertz"
+    },
+    {
+      "price": 609,
+      "time": "2025-06-23 03:00:00",
+      "company": "Instacar"
+    },
+    {
+      "price": 1136,
+      "time": "2025-06-23 03:00:00",
+      "company": "Sixt"
+    }
+  ]
+}
