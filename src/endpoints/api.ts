@@ -4,26 +4,34 @@ import type { StatsResponse } from "../types/stats";
 
 type fetchFilters = {
   company?: string;
-  price?: number;
-  date?: string;
+  priceFrom?: number;
+  priceTo?: number;
+  dateFrom?: string;
+  dateTo?: string;
 };
 
 export const getAllCars = async ({
   company,
-  price,
+  priceFrom,
+  priceTo,
 }: fetchFilters): Promise<CarResponse> => {
+  const params = { company: company, price_gte: priceFrom, price_lte: priceTo };
+  if (!priceFrom) delete params.price_gte;
+  if (!priceTo) delete params.price_lte;
+
   const res = await axiosInstance.get<CarResponse>("/cars", {
-    params: { company: company, price: price },
+    params: params,
   });
   return res.data;
 };
 
 export const getAllStats = async ({
   company,
-  date,
+  dateFrom,
+  dateTo,
 }: fetchFilters): Promise<StatsResponse> => {
   const res = await axiosInstance.get<StatsResponse>("/stats", {
-    params: { company: company, date: date },
+    params: { company: company, date_gte: dateFrom, date_lte: dateTo },
   });
   return res.data;
 };

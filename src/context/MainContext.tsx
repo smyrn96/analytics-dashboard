@@ -2,8 +2,10 @@ import React, { createContext, useContext, useState } from "react";
 
 export type FilterState = {
   company: string;
-  price: number | null;
-  date: string;
+  priceFrom: number | null;
+  priceTo: number | null;
+  dateFrom: string;
+  dateTo: string;
 };
 
 type MainContextType = {
@@ -13,8 +15,10 @@ type MainContextType = {
 
 const defaultState: FilterState = {
   company: "",
-  price: null,
-  date: "",
+  priceFrom: null,
+  priceTo: null,
+  dateFrom: "",
+  dateTo: "",
 };
 
 const MainContext = createContext<MainContextType | undefined>(undefined);
