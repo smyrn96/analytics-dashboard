@@ -15,12 +15,11 @@ const MainDashboard = () => {
     isLoading: isLoadingCars,
     isError: isErrorCars,
   } = useQuery({
-    queryKey: ["cars", filters.company, filters.priceFrom, filters.priceTo],
+    queryKey: ["cars", filters.company, filters.manufacturer],
     queryFn: () =>
       getAllCars({
         company: filters.company,
-        priceFrom: filters.priceFrom ?? 0,
-        priceTo: filters.priceTo ?? 0,
+        manufacturer: filters.manufacturer,
       }),
   });
 
@@ -29,12 +28,21 @@ const MainDashboard = () => {
     isLoading: isLoadingStats,
     isError: isErrorStats,
   } = useQuery({
-    queryKey: ["stats", filters.company, filters.dateFrom, filters.dateTo],
+    queryKey: [
+      "stats",
+      filters.company,
+      filters.dateFrom,
+      filters.dateTo,
+      filters.priceFrom,
+      filters.priceTo,
+    ],
     queryFn: () =>
       getAllStats({
         company: filters.company,
         dateFrom: filters.dateFrom,
         dateTo: filters.dateTo,
+        priceFrom: filters.priceFrom ?? 0,
+        priceTo: filters.priceTo ?? 0,
       }),
   });
 
