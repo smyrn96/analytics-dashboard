@@ -7,11 +7,13 @@ A data-driven dashboard built with **Vite**, **React**, **Material UI**, and **C
 ## 📦 Features
 
 - 📊 **Interactive Charts**:
+
   - Line chart for **price trends** over time.
   - Scatter plot for **horsepower vs range**.
   - Bar chart comparing **metrics by manufacturer**.
 
 - 🔎 **Filters**:
+
   - Filter by **Company** and **Manufacturer**.
   - Filter by **Price Range** (Material Slider).
   - Filter by **Month Range** (Material Slider with month labels).
@@ -61,25 +63,32 @@ A data-driven dashboard built with **Vite**, **React**, **Material UI**, and **C
 
 ### Installation
 
-
 # Clone the repo
+
 ```bash
 git clone https://github.com/yourusername/analytics-dashboard.git
 cd analytics-dashboard
 ```
 
 # Install dependencies
+
 ```bash
 npm install
 ```
 
 # Start the JSON server
+
 ```bash
 cd api
 npx json-server --watch db.json --port 8080
 ```
 
+# Create .env file
+
+Add the API URL: VITE_API_URL=http://localhost:8080
+
 # Start the Vite dev server
+
 ```bash
 npm run dev
 ```
