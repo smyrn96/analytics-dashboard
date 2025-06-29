@@ -83,9 +83,10 @@ cd api
 npx json-server --watch db.json --port 8080
 ```
 
-# Create .env file
-
-Add the API URL: VITE_API_URL=http://localhost:8080
+# Create .env file and add the API URL
+```bash
+VITE_API_URL=http://localhost:8080
+```
 
 # Start the Vite dev server
 
