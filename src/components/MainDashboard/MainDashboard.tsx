@@ -5,10 +5,12 @@ import HorizontalBarChart from "../HorizontalBarChart/HorizontalBarChart";
 import ScatterPlot from "../ScatterPlot/ScatterPlot";
 import CarTable from "../Table/CarsTable";
 import PriceLineChart from "../LineChart/LineChart";
+import MapContainerGrid from "../MapContainer/MapContainerGrid";
 
 const MainDashboard = () => {
   const context = useMainContext();
   const { filters } = context;
+  const marker = [37.971, 23.726];
 
   const {
     data: cars,
@@ -62,6 +64,9 @@ const MainDashboard = () => {
       </div>
       <div className="w-[45%]">
         <CarTable data={cars ?? []} />
+      </div>
+      <div className="w-[65%] m-auto">
+        <MapContainerGrid marker={marker} />
       </div>
     </div>
   );
